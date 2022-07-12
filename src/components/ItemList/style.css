@@ -1,0 +1,38 @@
+.shell-box-item-list-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	left: 0;
+	width: 400px;
+	margin-left: 20px;
+	height: fit-content;
+	margin-top: 50px;
+	-webkit-box-shadow: 5px 5px 12px 5px #c5c5c5;
+	box-shadow: 5px 5px 12px 5px #c5c5c5;
+	background-color: #fbce07;
+	border-radius: 15px;
+	padding: 15px 0;
+}
+
+.shell-box-item-list-container > button {
+	margin: 20px 0;
+	border: none;
+	border-radius: 20px;
+	padding: 9px 20px;
+	background-color: #631964;
+	width: 280px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-family: FuturaNormal;
+	font-size: 14px;
+}
+
+.shell-box-item-list-container > button:hover {
+	background-color: #7a1e7d;
+}
+
+.shell-box-item-list-container > button:active {
+	background-color: #481149;
+}

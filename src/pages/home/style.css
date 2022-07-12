@@ -1,0 +1,6 @@
+.shell-box-help-center-container {
+	background-color: gainsboro;
+	width: 100%;
+	height: calc(100vh - 100px);
+	position: absolute;
+}
